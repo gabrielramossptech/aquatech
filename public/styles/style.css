@@ -1,6 +1,8 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
@@ -130,4 +132,85 @@ body{
 .footer h4{
     margin: 0;
     margin-bottom: 0;
+}
+
+/* LOGIN */
+.footer2{
+    height: 25px;
+    background-color: var(--azul);
+    align-self: flex-end;
+}
+
+.login .container{
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-login{
+    width: 37vw;
+    background-color: #dcdcdc;
+    padding: 15px 15px 0 15px;
+    margin: 137px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.campo span{
+    color: #e4005a;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.card-login h2{
+    margin: 15px 0 10px 0;
+    color: #e4005a;
+}
+
+.formulario, .campo{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input{
+    width: 110%;
+    border: 2px solid var(--azul);
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+}
+
+.botao{
+    color: #fff;
+    background-color: #e4005a;
+    width: 100px;
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+/* CADASTRO */
+.card-cadastro h2{
+    color: #e4005a;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.card-cadastro{
+    width: 35vw;
+    background-color: #dcdcdc;
+    padding: 15px 15px 0 15px;
+    margin: 48.5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
 }
